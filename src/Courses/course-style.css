@@ -1,0 +1,28 @@
+.divContent{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 3rem;    
+}
+.imgStyle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15rem;
+    width: 30rem;
+  }
+  .divBtnStyle{
+    display: block;
+    margin: auto;
+    padding-bottom: auto;
+    width: 10rem;        
+}
+
+.btn-outline-success{
+    color: white;
+    background-color: orange;    
+}
+
+.divStyleRight{
+    float: right;
+    padding-right: 5rem;
+}

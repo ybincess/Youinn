@@ -1,0 +1,102 @@
+.menustyle{
+    line-height:0.8;
+    color:white;
+    padding-bottom: 0rem !important;
+    background-color: #0070c0;    
+    padding-top: 0rem !important;
+}
+.navbarstyle {
+    background-color:black;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    font-weight: none;
+    padding-left: 0rem;
+    padding-right: 1rem;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+.navbar{
+    padding-bottom: 0rem;
+    height: 50px;
+    min-width: 400px;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show,.navbar-light .navbar-nav .show > .nav-link{
+    color: blue;
+    height: 22px;   
+    justify-content: center;
+    align-items: center;
+    margin-right: 3px;
+    margin-left: 3px;
+    background-color: white;
+    margin-top: 5px;
+    padding-top: 3px;
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: blue;
+    background-color: black;
+    height: 22px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3px;
+    margin-left: 3px;
+    background-color: white;
+    margin-top: 5px;
+    padding-top: 3px;
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.9rem;
+}
+.nav-tabs .nav-link{
+    border-bottom-style: none;
+    height: 32px;
+}
+
+.dropdown-item{
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    background-color:white;
+}
+.dropdown-menu{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+.dropdown-item.active, .dropdown-item:active{
+    color: blue;
+    background-color: white;
+}
+.dropdown-item:hover{    
+    color: blue;
+}
+.nav-tabs{
+    color: red;
+    border-bottom-color:#0070c0;
+}
+
+.LogoStyle{
+    color: white !important;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link{
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.ImageStyle{
+    padding-top: 0rem !important;
+}
+
+
