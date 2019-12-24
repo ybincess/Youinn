@@ -41,7 +41,7 @@ class App extends React.Component {
           <Route exact path="/Enterprise" component={Enterprise}/>
           <Route exact path="/Certification" component={Certification}/>         
           <Route exact path="/AngularComp" component={AngularComp}/>
-          <Route exact path="/CourseReactJs" component={CourseReactJs}/>
+          <Route exact path="/ReactComp" component={CourseReactJs}/>
           <Route exact path="/JScomp" component={CourseJavascript}/>
           <Route exact path="/JavaFScomp" component={CourseJavaFullStack}/>
           <Route exact path="/DotNetFSComp" component={CourseDotNetFullStack}/>

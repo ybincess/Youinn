@@ -42,7 +42,7 @@ class Navbar extends React.Component {
                                     <a className="dropdown-item dropdown-toggle submenu-dropdown" href="/">Web UI Courses <b class="right-caret"></b></a>
                                     <ul className="dropdown-menu">
                                         <li><a className="dropdown-item" href="/AngularComp">Angular</a></li>
-                                        <li><a className="dropdown-item" href="/CourseReactJs">React</a></li>
+                                        <li><a className="dropdown-item" href="/ReactComp">React</a></li>
                                         <li><a className="dropdown-item" href="/JScomp">HTML + CSS + Javascript</a></li>
                                     </ul>
                                     <a className="dropdown-item dropdown-toggle submenu-dropdown" href="/">Job Oriented Courses <b class="right-caret"></b></a>
