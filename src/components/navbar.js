@@ -29,9 +29,9 @@ class Navbar extends React.Component {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
-                        <li className="nav-item active">
+                        {/* <li className="nav-item active">
                             <a className="nav-link white" href="/">Enterprise <span className="sr-only">(current)</span></a>
-                        </li>
+                        </li> */}
 
                        <li className="nav-item dropdown active">
                        <a className="nav-link active dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -60,12 +60,18 @@ class Navbar extends React.Component {
                             </div>
                         </li>
                         <li className="nav-item active">
+                            <a className="nav-link white" href="/Certification">Certifications <span className="sr-only">(current)</span></a>
+                        </li>
+                        <li className="nav-item active">
+                            <a className="nav-link white" href="/Enterprise">Enterprise <span className="sr-only">(current)</span></a>
+                        </li>
+
+                        <li className="nav-item active">
                             <a className="nav-link white" href="/AboutUs">About Us <span className="sr-only">(current)</span></a>
                         </li>
                     </ul>
                     <ul className="navbar-nav ml-auto">
                         <li><a href="/register" className="btn btn-info" role="button">Register</a></li>&nbsp;
-                        <li><a href="/login" className="btn btn-primary" role="button">Login</a></li>
                     </ul>
                 </div>
 

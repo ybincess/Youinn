@@ -6,42 +6,53 @@ const sample3 = {
     "shapes": [
       {
         "type": "image",
-        "src": "Boots.jpg"
+        "src": "Tosca.png"
       },
       {
         "type": "image",
-        "src": "css.png"
+        "src": "uft.png"
       },
       {
         "type": "image",
-        "src": "js.png"
+        "src": "uipath.png"
       },
       {
         "type": "image",
-        "src": "html.jpg"
+        "src": "Selenium.jpg"
       },
       {
         "type": "image",
-        "src": "AngularJs.png"
-      },
-      {
-        "type": "image",
-        "src": "ReactJs.png"
+        "src": "soapui.jpg"
       },
 
     ],
     "size": 100,
     "minSpeed": .1,
-    "maxSpeed": .3,
+    "maxSpeed": .9,
     "alpha": .9,
-    "backgroundColor": "black"
+    "backgroundColor": "navy"
   };
 const slidewindow2 =(props) => {
     return(
-      <div style={{height: "85vh"}}>
+      <div style={{width:"100%", height:"90vh"}}>
         <Canvas options={sample3} />
-        <h3 style={{color: "white"}}>Universe of Web UI, Learn Angular, React and JS Frameworks!</h3>
-        </div>
+        <div className="text-center" style={{position: "absolute", top:"5%", width:"100%"}}>
+        <h1 className="text-light"
+            style={{ fontSize: "30px", fontWeight:"none"}}>
+            <br/> 
+            Choose a Promising career in Testing!
+            <br/><br/> <br/> <br/> <br/>
+            <br/> <br/> <br/> <br/>
+            <br/> <br/> <br/>
+            <h1 className="text-light"
+            style={{ fontSize: "20px", fontWeight:"bold"}}>
+            Learn Manual, Automation and Robotics
+            <br/> 
+            We cover leading Testing Frameworks
+            </h1>
+        </h1>
+</div>
+      </div>
     )
 }
 export default slidewindow2;

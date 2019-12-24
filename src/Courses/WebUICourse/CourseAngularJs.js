@@ -10,20 +10,18 @@ const CourseAngularJs = () => {
         <div>
             <div className="contentDivStyle">
                 <h1 className="IndentSubMenu text-center">Angular JS</h1>   
-                <div className="divStyleRight">
-                    <NavLink tag={RRNavLink} to="/Courses/WebUICourseList" ><u>Back</u></NavLink>
-                </div>
-                <div className="divContent">
+                <div className="">
                     <div>
-                        <h3><strong>Course Overview</strong></h3>
                         <img className="imgStyle" src={CourseAngular}></img>
-                        <h4><strong>Angular JS</strong></h4>
+                        <div className="divContent">
+                        <h3><strong>Course Overview</strong></h3>
                         <p>AngularJS is an open source Model-View-Controller framework which is similar to the JavaScript framework. AngularJS is entirely based on HTML and JavaScript, so there is no need to learn another syntax or language.</p>
                         <p>AngularJS changes static HTML to dynamic HTML. It extends the ability of HTML by adding built-in new attributes and components and also provides an ability to create custom attributes using simple JavaScript.</p>
                         <p>AngularJS is perfect for Single Page Applications (SPAs).</p>
                         <p>React JS and Redux are other two frameworks which are gaining popularity.</p>
                     </div>
-                    <div>
+                    </div>
+                    <div className="divContent">
                         <h4><strong>Advantage of AngularJS</strong></h4>
                         <p><strong>Following are the advantages of AngularJS over other JavaScript frameworks:</strong></p>
                         <ul class="points">
@@ -34,14 +32,14 @@ const CourseAngularJs = () => {
                             <li>Directives, filters, modules, routes etc. </li>
                         </ul>
                     </div>
-                    <div>
+                    <div className="divContent">
                         <h4><strong>What this course can do for you?</strong></h4>
                         <p>Enable you to assimilate and master latest framework like frameworks like js, Node.js, and Mongo DB. and leapfrog your career</p>
                         <p>Build Responsive Web application using Angular Typescript</p>
                         <p>Understand Single line Page Application Vs Conventional Web Apps</p>
                         <p>Learn Angular 5 Binding and events with templates</p>
                     </div>
-                    <div>
+                    <div className="divContent">
                         <h4><strong>Who can do this course?</strong></h4>
                         <ul>
                             <li>This course is intended for participant who is a Graduate/ Under Graduate / Working Professional aspiring to do career as a full stack application developer with basic knowledge of HTML &amp; CSS</li>
@@ -69,9 +67,6 @@ const CourseAngularJs = () => {
                         </ul>
                     </div>
                 </div>            
-                <div className="divStyleRight">
-                    <NavLink tag={RRNavLink} to="/Courses/WebUICourseList" >Back</NavLink>
-                </div>
                 <div className="divContent">
                     <NavLink tag={RRNavLink} to="/SignIn" className="btn btn-outline-success text-center divBtnStyle">JOIN NOW</NavLink>                        
                 </div>

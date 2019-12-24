@@ -1,7 +1,7 @@
 ss3 {
     width: 10px;
     height: 10px;
-    background-color: red;
+    background-color:yellow;
     font-weight: bold;
     position: relative;
     -webkit-: mymove 3s infinite; /* Safari 4.0 - 8.0 */

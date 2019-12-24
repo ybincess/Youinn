@@ -1,10 +1,57 @@
-.contentDivStyle {
-     background-color: lightblue;
+h1.Indent {
+     padding-left: 0.5em;
+     font-family: Verdana;
+     font-size: xx-large;
+     font-weight: bold;
+     color: #1e1278;
+     vertical-align: middle;
+     line-height: 0.8;
+ }
+ 
+ h1.IndentSubMenu {
+     padding-left: 1em;
+     padding-top: 1rem;
+     font-family: Verdana;
+     font-size:x-large;
+     font-weight: bold;
+     color: #0070c0;
+     vertical-align: middle;
+     line-height: 2;
+     margin-top: 0;
+ }
+ 
+ .div_style {
+     width: 100%;
+     background-color:blue;
+     vertical-align: middle;
+     line-height: 75px;
+ }
+ .container{
+     max-width: 1600px;
+     padding-bottom: 0rem;
+     flex: 10;
+ }
+ 
+ .left{
+     float: left;
+     height: 24%;
+     width: 23%;
+     overflow: visible;   
+     display: inline-block; 
+ }
+ .right{
+     float: right;
+     height: 23%;
+     width: 77%;
+     overflow: visible;
+     background-color: #c5d5cb;
+     min-height: 145%;
      display: inline-block;
-     height: 90vh;
-
-}
-.abouttext {
-padding-left: 10%;
-padding-right: 10%;
-}
+     text-align: center;
+ }
+ 
+ .contentDivStyle{
+      height: 90vh; 
+      background-color: lightblue;
+ }
+ 

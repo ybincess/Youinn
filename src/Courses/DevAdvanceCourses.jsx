@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import Home from '../Components/Home';
 import Course from './Course';
-import Footer from '../Components/footer';
+import Footer from '../components/Footer';
 
 import Android from '../images/Android-Training.png';
 import BigData from '../images/BigData-Training.png';

@@ -2,19 +2,20 @@
     padding-left: 5rem;
     padding-right: 5rem;
     padding-bottom: 3rem;    
+    background-color: lightblue;
 }
 .imgStyle {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 15rem;
-    width: 30rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    margin-left: -250px;
   }
   .divBtnStyle{
-    display: block;
+    display: flex;
     margin: auto;
     padding-bottom: auto;
-    width: 10rem;        
+    width: 8rem;        
 }
 
 .btn-outline-success{
