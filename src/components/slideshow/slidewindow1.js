@@ -1,6 +1,6 @@
 import React from "react";
 import Particles from "react-particles-js";
-
+import '../../images/CPNGs/html.jpg';
 const slidewindow1 = props => {
   return (
     <div>
@@ -42,7 +42,7 @@ const slidewindow1 = props => {
               type: ["images", "circle"],
               images: [
                 {
-                  src: "html.JPg",
+                  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png",
                   height: 40,
                   width: 40
                 },
