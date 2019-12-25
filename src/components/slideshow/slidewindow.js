@@ -53,14 +53,14 @@ const slidewindow =(props) => {
             Learn from Experts, We are here to get you a Job
             <br/> <br/> <br/>
         </h1>
-        <center className="text-light"
+        {/* <center className="text-light"
             style={{ fontSize: "15px", fontWeight:"none"}}> 
           <h4>             We Offer: </h4>
           <p className="ss1">Courses on Latest Software Development and Testing Frameworks</p>
           <p className="ss1">Internship & Summer Projects</p>
           <p className="ss1">Certifications & Job Assistance</p>
           <p className="ss1">Job Foundation Courses </p>
-         </center>
+         </center> */}
 
         <h1 className="text-light"
             style={{ fontSize: "25px", fontWeight:"bold", textDecoration:"underline"}}>
