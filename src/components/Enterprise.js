@@ -9,12 +9,13 @@ const AboutUs = () => {
                 <h1 className="IndentSubMenu text-center">Enterprise Registration</h1>
                 <div className="divContent">
                     <p className="para">
-                        Kindly get in touch with us for corporate Registration
+                    <center>
+                        <br/>
+                        Kindly get in touch with us for Corporate Registration
                         <br />
                         <br />
-                        <br />
-                        <br /> 
                         ..... Work In Progress as we are working on Corporate Offerings....
+                        </center>
                     </p>
                 </div>
             </div>

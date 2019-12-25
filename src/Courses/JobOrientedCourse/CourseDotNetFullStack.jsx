@@ -49,8 +49,11 @@ const CourseDotNetFullStack = () => {
                     <div className="divContent">
 
                         <h4><strong>What this course can do for you?</strong></h4>
-                        <p>Enable you to assimilate and master latest framework like Springboot, Hibernate,
-                            and Spring MVC and leapfrog your career</p>
+                        <p>Enable you to assimilate and master latest .Net framework and
+                          leapfrog your career
+                        </p>
+                        <p>After Java its one of the most sought after stack</p>
+                        <p>Fully suported by Microsoft</p>
 
                     </div>
                     <div className="divContent">
@@ -62,7 +65,7 @@ const CourseDotNetFullStack = () => {
                          </ul>
                     </div>
                     <div className="divContent">
-                        <h4><strong>Learning Outcomes</strong></h4>
+                        <h4><strong>Course Content:</strong></h4>
                         <ul>
                           <li>Introduction to .Net Framework</li>
                           <li>Web Basics: HTML + CSS + JavaScript</li>

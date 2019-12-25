@@ -37,15 +37,19 @@ const CourseReactJs = () => {
                             <h4><strong>Advantage of ReactJs</strong></h4>
                             <p><strong>Following are the advantages of ReactJS:</strong></p>
                             <ul class="points">
-                                
+                                <li>One of the most demanding skills</li>
+                                <li>Easy to Learn and Scale</li>
+                                <li>Comonents can be reused</li>
+                                <li>Supported by Facebook and Instagram</li>
+
                             </ul>
                         </div>
                         <div className="divContent">
                             <h4><strong>What this course can do for you?</strong></h4>
-                            <p>Enable you to assimilate and master latest framework like frameworks like js, Node.js, and Mongo DB. and leapfrog your career</p>
-                        <p>Build Responsive Web application using Angular Typescript</p>
-                        <p>Understand Single line Page Application Vs Conventional Web Apps</p>
-                        <p>Learn Angular 5 Binding and events with templates</p>
+                            <p>Enable you to assimilate and master latest framework like frameworks like Express js, Node.js, and Mongo DB. and leapfrog your career</p>
+                        <p>Build Responsive Web application</p>
+                        <p>Understand Component based Framework which is easy to Learn and Scale </p>
+                        <p>Learn Redux and React Native</p>
                         </div>
                         <div className="divContent">
                             <h4><strong>Who can do this course?</strong></h4>
@@ -56,7 +60,7 @@ const CourseReactJs = () => {
   
                         </div>
                         <div className="divContent">
-                            <h4><strong>Learning Outcomes</strong></h4>
+                            <h4><strong>Course Content:</strong></h4>
                             <ul>
                                 <li>Introduction to React</li>
                                 <li>React Components</li>     

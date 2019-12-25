@@ -59,7 +59,7 @@ const CourseJavaFullStack = () => {
               </li>
               <li>
                 Hence it is important for the full stack developer in Java to
-                know many things starting from the Front end to backend technology.
+                know many things starting from the Front end to backend technologies.
               </li>
               <li>
                 If one masters at least HTML5, CSS 3, Bootstrap, Angular JS, SQL
@@ -102,7 +102,7 @@ const CourseJavaFullStack = () => {
           </div>
           <div className="divContent">
             <h4>
-              <strong>Learning Outcomes</strong>
+              <strong>Course Content:</strong>
             </h4>
             <ul>
               <li>Introduction to Java and Spring Framework</li>

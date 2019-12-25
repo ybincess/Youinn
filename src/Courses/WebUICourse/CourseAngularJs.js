@@ -45,7 +45,7 @@ const CourseAngularJs = () => {
                             <li>This course is intended for participant who is a Graduate/ Under Graduate / Working Professional aspiring to do career as a full stack application developer with basic knowledge of HTML &amp; CSS</li>
                             <li>Undergraduate or Graduate students from computer background-BE(IT), BE (Comp), BCA, BSc (Comp), BSc (IT), BCS with basic knowledge of HTML &amp; CSS</li><li>Post graduate students – MCA, MCM, MSc (IT), MSc (Comp. Sci.) with basic knowledge of HTML &amp; CSS</li>
                             <li>Experienced professional with experience in server-side framework</li></ul>
-                        <h4><strong>Learning Outcomes</strong></h4>
+                        <h4><strong>Course Content:</strong></h4>
                         <ul>
                             <li>Introduction to Angular</li>
                             <li>Simple Angular Application</li>

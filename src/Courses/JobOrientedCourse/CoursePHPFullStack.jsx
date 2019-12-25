@@ -52,7 +52,7 @@ const CoursePHPFullStack = () => {
 
                     </div>
                     <div className="divContent">
-                        <h4><strong>Learning Outcomes</strong></h4>
+                        <h4><strong>Course Content:</strong></h4>
                         <ul>
                           <li>Introduction to PHP and Joomla Framework</li>
                           <li>Web Basics: HTML + CSS + JavaScript</li>
