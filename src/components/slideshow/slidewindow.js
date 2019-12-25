@@ -55,7 +55,7 @@ const slidewindow =(props) => {
         </h1>
         <center className="text-light"
             style={{ fontSize: "15px", fontWeight:"none"}}> 
-          <h3>             We Offer: </h3>
+          <h4>             We Offer: </h4>
           <p className="ss1">Courses on Latest Software Development and Testing Frameworks</p>
           <p className="ss1">Internship & Summer Projects</p>
           <p className="ss1">Certifications & Job Assistance</p>

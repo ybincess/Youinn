@@ -30,7 +30,10 @@ class Slider extends React.Component {
         >
           <Slidewindow />
         </div>
+        <div style={{width: "100vw", height: "90vh",backgroundColor: "navy", position: "relative"}}>
+
         <Slidewindow1 /> 
+        </div>
         <Slidewindow4 />
         <Slidewindow2 />
         <div style={{width: "100vw", height: "90vh",backgroundColor: "navy", position: "relative"}}>
