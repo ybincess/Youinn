@@ -24,7 +24,10 @@ const sample3 = {
         "type": "image",
         "src": "soapui.jpg"
       },
-
+      {
+        "type": "image",
+        "src": "testng.jpg"
+      },
     ],
     "size": 100,
     "minSpeed": .1,
