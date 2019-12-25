@@ -116,7 +116,7 @@ const CourseJavaFullStack = () => {
         <div className="divContent">
           <NavLink
             tag={RRNavLink}
-            to="/SignIn"
+            to="/Register"
             className="btn btn-outline-success text-center divBtnStyle"
           >
             JOIN NOW

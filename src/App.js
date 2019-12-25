@@ -19,6 +19,8 @@ import CourseJavascript from './Courses/WebUICourse/CourseJavascript';
 import CourseJavaFullStack from './Courses/JobOrientedCourse/CourseJavaFullStack';
 import CoursePHPFullStack from './Courses/JobOrientedCourse/CoursePHPFullStack';
 import CourseDotNetFullStack from './Courses/JobOrientedCourse/CourseDotNetFullStack';
+import CoursePython from './Courses/AdvancedCourse/CoursePython';
+
 // import ControlledCarousel from './components/SlideShowWithText';
 import Slider from './components/slideshow/Slider';
 import DevJobOrientedCourse from './Courses/DevJobOrientedCourse';
@@ -46,8 +48,8 @@ class App extends React.Component {
           <Route exact path="/JavaFScomp" component={CourseJavaFullStack}/>
           <Route exact path="/DotNetFSComp" component={CourseDotNetFullStack}/>
           <Route exact path="/PHPFScomp" component={CoursePHPFullStack}/>
-          {/* <Route exact path="/CourseR" component={CourseR}/>
-          <Route exact path="/CoursePython" component={CoursePython}/> */}
+           <Route exact path="/AIMLComp" component={CoursePython}/> */}
+          <Route exact path="/PythonComp" component={CoursePython}/>
         </Switch>
         <Footer />
       </Router>

@@ -77,7 +77,7 @@ const CourseReactJs = () => {
                         </div>
                     </div>            
                     <div className="divContent">
-                        <NavLink tag={RRNavLink} to="/SignIn" className="btn btn-outline-success text-center divBtnStyle">JOIN NOW</NavLink>   
+                        <NavLink tag={RRNavLink} to="/Register" className="btn btn-outline-success text-center divBtnStyle">JOIN NOW</NavLink>   
                     </div>
                 </div>
                 <div>

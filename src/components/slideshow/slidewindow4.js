@@ -15,7 +15,6 @@ const slidewindow4 = props => {
                     </span>
      </div>
       <img className="image-prop" src={FSDev} alt="Home Page"/>
-
      </div>
   )
 }

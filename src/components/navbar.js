@@ -53,8 +53,8 @@ class Navbar extends React.Component {
                                     </ul>
                                     <a className="dropdown-item dropdown-toggle submenu-dropdown" href="/">Advanced Courses <b class="right-caret"></b></a>
                                     <ul className="dropdown-menu">
-                                        <li><a className="dropdown-item" href="/Python">Python</a></li>
-                                        <li><a className="dropdown-item" href="/AIML">AI & ML</a></li>
+                                        <li><a className="dropdown-item" href="/PythonComp">Python</a></li>
+                                        <li><a className="dropdown-item" href="/AIMLComp">AI & ML</a></li>
                                     </ul>
                                 </li>
                             </div>

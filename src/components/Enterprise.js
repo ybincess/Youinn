@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Footer from './Footer';
 import '../CSS/Home.css';
 
-const AboutUs = () => {
+const Enterprise = () => {
     return (
         <div>
             <div className="contentDivStyle">
@@ -14,7 +14,9 @@ const AboutUs = () => {
                         Kindly get in touch with us for Corporate Registration
                         <br />
                         <br />
-                        ..... Work In Progress as we are working on Corporate Offerings....
+                        ..... Work In Progress .....
+                        <br/>
+                        We are working on Corporate Offerings
                         </center>
                     </p>
                 </div>
@@ -25,4 +27,4 @@ const AboutUs = () => {
         </div>
     )
 }
-export default AboutUs;
+export default Enterprise;
