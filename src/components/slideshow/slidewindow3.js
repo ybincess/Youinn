@@ -5,9 +5,6 @@ import { BrowserRouter as Router, NavLink as RRNavLink } from 'react-router-dom'
 import {NavLink} from 'reactstrap';
 
 import Slide5 from "../../images/Slide5.jpg";
-
-import Particles from 'react-particles-js';
-import {Canvas} from 'react-canvas-js';
 const slidewindow3 =(props) => {
     return(
       <div>
