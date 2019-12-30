@@ -23,18 +23,18 @@ import CoursePython from './Courses/AdvancedCourse/CoursePython';
 
 // import ControlledCarousel from './components/SlideShowWithText';
 import Slider from './components/slideshow/Slider';
-import DevJobOrientedCourse from './Courses/DevJobOrientedCourse';
-import WebUICourseList from './Courses/WebUICourseList';
-import DevAdvancedCourses from './Courses/DevAdvanceCourses';
+// import DevJobOrientedCourse from './Courses/DevJobOrientedCourse';
+// import WebUICourseList from './Courses/WebUICourseList';
+// import DevAdvancedCourses from './Courses/DevAdvanceCourses';
 class App extends React.Component {
   render() {
     return (
       <Router>
         <Navbar />
         <Route exact path="/dashboard" component={Slider} />
-            <Route path="/" exact strict component={WebUICourseList} />
+            {/* <Route path="/" exact strict component={WebUICourseList} />
             <Route path="/" exact strict component={DevJobOrientedCourse} />
-            <Route path="/" exact strict component={DevAdvancedCourses} />
+            <Route path="/" exact strict component={DevAdvancedCourses} /> */}
         <Switch>
           <Route exact path="/" render={() => <Redirect to="/dashboard"></Redirect>} />
           {/* <Route path="/dashboard" exact component={Slider}/> */}

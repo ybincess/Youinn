@@ -6,7 +6,8 @@ import {
 import Footer from "../../components/Footer";
 import { NavLink } from "reactstrap";
 import "../course-style.css";
-import JavaFullStack from "../../images/Course-JavaFullStack.png";
+// import JavaFullStack from "../../images/Course-JavaFullStack.png";
+import JavaFullStack from "../../images/java1.jpg";
 
 const CourseJavaFullStack = () => {
   return (
