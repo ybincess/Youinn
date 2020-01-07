@@ -11,6 +11,7 @@ import AboutUs from './components/AboutUs';
 import Enterprise from './components/Enterprise';
 import Certification from './components/Certification';
 import Register from './components/Register';
+import Reg from './components/Register1';
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import Login from './components/Login';
 import AngularComp from './Courses/WebUICourse/CourseAngularJs';
@@ -39,6 +40,8 @@ class App extends React.Component {
           <Route exact path="/" render={() => <Redirect to="/dashboard"></Redirect>} />
           {/* <Route path="/dashboard" exact component={Slider}/> */}
           <Route exact path="/register" component={Register} />
+          <Route exact path="/Reg" component={Reg} />
+
           <Route exact path="/AboutUs" component={AboutUs}/>
           <Route exact path="/Enterprise" component={Enterprise}/>
           <Route exact path="/Certification" component={Certification}/>         

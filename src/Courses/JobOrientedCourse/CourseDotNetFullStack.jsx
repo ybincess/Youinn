@@ -37,11 +37,11 @@ const CourseDotNetFullStack = () => {
                         <h4><strong>Advantage of .Net</strong></h4>
                         <p><strong>Following are the advantages of .Net:</strong></p>
                         <ul class="points">
-                        <li>As easily seen from the above observations, a full-stack developer in Java needs to know much more than a specific programming language or a framework. Essentially the Java developer should be able to create a prototype which is a minimum viable product(MVP) which is deployable.</li>
-                         <li> Hence it is important for the full stack developer in Java to know many things starting from the HTML to backend databases.
+                        <li>As easily seen from the above observations, a full-stack developer in .Net needs to know much more than a specific programming language or a framework. Essentially the .Net developer should be able to create a prototype which is a minimum viable product(MVP) which is deployable.</li>
+                         <li> Hence it is important for the full stack developer in .Net to know many things starting from the HTML to backend databases.
 
                             </li>
-                        <li>If one masters at least HTML5, CSS 3, Bootstrap, Angular JS, SQL & Java , he would become the ‘most sought-after’ full stack developer.
+                        <li>If one masters at least HTML5, CSS 3, Bootstrap, Angular JS, SQL & .Net , he would become the ‘most sought-after’ full stack developer.
 
                              </li>
                         </ul>
@@ -52,7 +52,7 @@ const CourseDotNetFullStack = () => {
                         <p>Enable you to assimilate and master latest .Net framework and
                           leapfrog your career
                         </p>
-                        <p>After Java its one of the most sought after stack and Fully 
+                        <p>After .Net its one of the most sought after stack and Fully 
                             suported by Microsoft. This course will make your career long lasting</p>
 
                     </div>

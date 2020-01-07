@@ -4,27 +4,26 @@ import '../../CSS/ss2.css';
 import { BrowserRouter as Router, NavLink as RRNavLink } from 'react-router-dom';
 import {NavLink} from 'reactstrap';
 
+
 import Slide5 from "../../images/Slide5.jpg";
 const slidewindow3 =(props) => {
     return(
       <div>
          <div className="text-center" style={{position: "absolute", top:"5%", width:"100%"}}>
-          <br/>
-          <h3 style={{color:"navy"}}> Courses Designed for College Students</h3>
+          <br/> <br/>
+          <h3 style={{color:"navy", fontWeight: "bold"}}> Interview Preparation Course</h3>
           <br/><br/>
          <center> 
-          <p className="ss1">C/C++ Crash Course </p>
-          <p className="ss1">Data Structures Crash Course</p>
-          <p className="ss1">Java Crash Course</p>
-          <p className="ss1">C# Crash Course</p>
-          <p className="ss1">Python Crash Course</p>
-          <p className="ss1">Semester Exams Preparation</p>
-          <p className="ss1">Summer Vacation Courses</p>
-          <p className="ss1">Job Fourndation Courses</p>
+          <p className="ss1">Coding Interviews </p>
+          <p className="ss1">Aptitude Tests</p>
+          <p className="ss1">Mock Tests</p>
+          <p className="ss1">Personality Assessment</p>
+          <p className="ss1">Presentation & Communication Skill</p>
+          <p className="ss1">Mock Interviews</p>
          </center>
          <br/>
          <div className="">
-                    <NavLink tag={RRNavLink} to="/Register" className="btn btn-outline-success text-center divBtnStyle">JOIN NOW</NavLink>                        
+                    <NavLink tag={RRNavLink} to="/Reg" className="btn btn-outline-success text-center divBtnStyle">JOIN NOW</NavLink>                        
                 </div>
 
          </div>
